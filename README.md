@@ -108,8 +108,7 @@ Method names should always indicate what a method does as we saw above.  But som
 
 Before we start criticizing this solution we need to create some other classes which can be used to ascertain the correctness of a receipt.  Following is the `Basket` class which will contain all items and performs certain calculations, such as the total tax to be printed on the receipt.
 
-
-<pre>
+```java
 package com.javacreed.examples.oop.part1;
 
 import java.math.BigDecimal;
@@ -160,7 +159,6 @@ import java.math.BigDecimal;
 
 import org.junit.Assert;
 import org.junit.Test;
-
 
 public class TaxTest {
 
